@@ -10,7 +10,7 @@ pipeline {
         sh 'cat /etc/lsb-release'
       }
     }
-    stage(''Deploye) {
+    stage('Deploye') {
       steps {
         sh 'cat /etc/lsb-release' 
       }
