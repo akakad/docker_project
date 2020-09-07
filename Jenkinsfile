@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'akakad/apache:latest'
+      image 'ubuntu:latest'
     }
   }
   stages {
